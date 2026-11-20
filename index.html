@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="حلو وحادق - ساندوتشات فينو حلوة وحادقة في مول داون تاون بمدينة السادات." />
+  <title>حلو وحادق | من قعدة صحاب بدأت الحكاية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="حلو وحادق - الرئيسية">
+        <span class="brand-mark"><i class="fa-solid fa-burger"></i></span>
+        <span><strong>حلو <b>وحادق</b></strong><small>HELW W HADEQ</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#home">الرئيسية</a>
+        <a href="#menu">المنيو</a>
+        <a href="#story">حكايتنا</a>
+        <a href="#location">مكاننا</a>
+      </div>
+      <a class="nav-cta" href="#menu"><i class="fa-solid fa-utensils"></i> شوف المنيو</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><i class="fa-solid fa-heart"></i> معمول بحب.. ومتعملش غير بمزاج</span>
+          <h1>كل يوم له <em>طعم</em><br>مع حلو وحادق!</h1>
+          <p>من أول قضمة هتعرف إن الفينو عندنا حكاية.. اختار بتحب الحلو ولا الحادق وسيب الباقي علينا.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">اكتشف المنيو <i class="fa-solid fa-arrow-left"></i></a>
+            <a class="btn btn-ghost" href="#story">اعرف حكايتنا</a>
+          </div>
+          <div class="hero-note"><span class="note-icon"><i class="fa-solid fa-location-dot"></i></span><span>مستنيينكم في <strong>مول داون تاون</strong><br><small>مدينة السادات</small></span></div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-main">
+            <img src="https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=1100&q=85" alt="ساندوتش فينو محشو بمكونات طازجة">
+          </div>
+          <div class="floating-tag tag-top"><i class="fa-solid fa-star"></i> لقمة تفرّح</div>
+          <div class="floating-tag tag-bottom"><span>حلو</span><b>+</b><span>حادق</span></div>
+          <div class="hero-doodle">〰</div>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <div><i class="fa-solid fa-bread-slice"></i><span><strong>فينو طازة</strong><small>كل يوم</small></span></div>
+        <div><i class="fa-solid fa-face-smile"></i><span><strong>طعم على مزاجك</strong><small>حلو أو حادق</small></span></div>
+        <div><i class="fa-solid fa-heart"></i><span><strong>بداية من الصحاب</strong><small>وحكاية لسه بتبدأ</small></span></div>
+      </div>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">اختار مزاجك النهارده</span>
+          <h2>منيو <em>حلو وحادق</em></h2>
+          <p>ساندوتشات فينو بسيطة.. بس معمولة بحب.</p>
+        </div>
+        <div class="menu-tabs" role="tablist" aria-label="تصنيف المنيو">
+          <button class="tab active" data-filter="all">كل الساندوتشات</button>
+          <button class="tab" data-filter="savory"><i class="fa-solid fa-cheese"></i> الحادق</button>
+          <button class="tab" data-filter="sweet"><i class="fa-solid fa-cookie-bite"></i> الحلو</button>
+        </div>
+        <div class="products-grid" id="productsGrid">
+          <article class="product-card" data-category="savory">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1553909489-cd47e0ef937f?auto=format&fit=crop&w=700&q=80" alt="ساندوتش فينو لانشون وجبنة"><span class="product-label">الأكثر طلبًا</span></div>
+            <div class="product-info"><div><h3>فينو لانشون وجبنة</h3><p>لانشون مع جبنة ومكونات طازة</p></div><strong class="price">35 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو لانشون وجبنة"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+          <article class="product-card" data-category="savory">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=700&q=80" alt="ساندوتش جبنة وخضروات"><span class="product-label">اختيار خفيف</span></div>
+            <div class="product-info"><div><h3>فينو جبنة</h3><p>جبنة كريمي بطعم غني</p></div><strong class="price">30 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو جبنة"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+          <article class="product-card" data-category="savory">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1481070414801-51fd732d7184?auto=format&fit=crop&w=700&q=80" alt="ساندوتش فينو تركي"><span class="product-label">طعم مميز</span></div>
+            <div class="product-info"><div><h3>فينو تركي</h3><p>تركي وجبنة ولمسة صوص</p></div><strong class="price">40 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو تركي"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+          <article class="product-card" data-category="savory">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=700&q=80" alt="بطاطس محمرة"><span class="product-label">كلاسيك</span></div>
+            <div class="product-info"><div><h3>فينو بطاطس</h3><p>بطاطس محمرة وتتبيلة خاصة</p></div><strong class="price">30 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو بطاطس"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+          <article class="product-card" data-category="sweet">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1521305916504-4a1121188589?auto=format&fit=crop&w=700&q=80" alt="ساندوتش شوكولاتة"><span class="product-label">لعشاق الشوكولاتة</span></div>
+            <div class="product-info"><div><h3>فينو شوكولاتة</h3><p>شوكولاتة ناعمة في فينو طازة</p></div><strong class="price">35 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو شوكولاتة"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+          <article class="product-card" data-category="sweet">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=700&q=80" alt="ساندوتش حلو بالموز والشوكولاتة"><span class="product-label">حلاوة المزاج</span></div>
+            <div class="product-info"><div><h3>فينو حلو</h3><p>مكس حلو يظبط يومك</p></div><strong class="price">40 <small>ج.م</small></strong></div>
+            <button class="add-btn" data-product="فينو حلو"><i class="fa-solid fa-plus"></i> أضف للطلب</button>
+          </article>
+        </div>
+        <p class="menu-disclaimer">* الأسعار والأصناف المعروضة مبدئية وقابلة للتعديل حسب المنيو النهائي.</p>
+      </div>
+    </section>
+
+    <section class="story-section section-pad" id="story">
+      <div class="container story-grid">
+        <div class="story-photo">
+          <img class="story-main-photo" src="images/founders-4.jpeg" alt="صورة محمد عمرو ومحمد طارق ويوسف ومصطفى معًا">
+          <div class="story-stamp"><i class="fa-solid fa-heart"></i><span>أصحاب<br>وحلم واحد</span></div>
+          <div class="founder-photo-strip">
+            <img src="images/founders-1.jpeg" alt="صورة من ذكريات أصحاب حلو وحادق">
+            <img src="images/founders-2.jpeg" alt="صورة من ذكريات أصحاب حلو وحادق">
+            <img src="images/founders-3.jpeg" alt="صورة من ذكريات أصحاب حلو وحادق">
+          </div>
+        </div>
+        <div class="story-copy">
+          <span class="eyebrow">كل حكاية ليها بداية</span>
+          <h2>إحنا <em>حلو وحادق</em></h2>
+          <p>إحنا أربعة أصحاب: محمد عمرو، محمد طارق، يوسف، ومصطفى. الفكرة بدأت من قعدة عادية وكلام عن مشروع نفسنا نعمله سوا.</p>
+          <p>ومن وسط الكلام قررنا ناخد أول خطوة ونحوّل الفكرة لحقيقة. اخترنا الفينو لأنه قريب من كل الناس، وقررنا نقدمه بحشوات حلوة وحادقة، بطعم يفرّح وبسعر يناسبكم.</p>
+          <p class="story-signature">دي البداية.. وإن شاء الله الحكاية تكبر بيكم <i class="fa-solid fa-heart"></i></p>
+          <div class="founders"><span>محمد عمرو</span><span>محمد طارق</span><span>يوسف</span><span>مصطفى</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section section-pad" id="location">
+      <div class="container visit-card">
+        <div class="visit-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+        <div><span class="eyebrow">تعالى زورنا</span><h2>مستنيينك فين؟</h2><p>مول داون تاون – مدينة السادات</p></div>
+        <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Downtown+Mall+Sadat+City" target="_blank" rel="noopener">افتح الخريطة <i class="fa-solid fa-arrow-left"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#home"><span class="brand-mark"><i class="fa-solid fa-burger"></i></span><span><strong>حلو <b>وحادق</b></strong><small>HELW W HADEQ</small></span></a>
+      <p>من قعدة صحاب.. بدأت الحكاية.</p>
+      <div class="socials"><a href="https://www.instagram.com/mohamedamr7048/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a></div>
+      <small class="copyright">© <span id="year"></span> حلو وحادق. كل الحقوق محفوظة.</small>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><i class="fa-solid fa-circle-check"></i><span></span></div>
+  <button class="back-to-top" id="backToTop" aria-label="العودة للأعلى"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
